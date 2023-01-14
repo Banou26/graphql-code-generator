@@ -1,0 +1,16 @@
+{
+  "name": "graphql-code-generator-typescript-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "codegen": "concurrently \"graphql-codegen --config codegen.ts\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@graphql-codegen/cli": "^2.16.4",
+    "@graphql-codegen/client-preset": "^1.2.6",
+    "concurrently": "^7.6.0"
+  }
+}
